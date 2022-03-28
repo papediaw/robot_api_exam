@@ -1,4 +1,3 @@
-
 ## Requirements
 - Develop a ruby client application to fetch list of programming_languages from this server
   - Command line specification:
@@ -35,17 +34,25 @@ ruby,Ruby
 python,Python
 java,Java
 ```
+## How to develop
+- Clone this repository and build a local enviroment.
+- Create another repository to develop a ruby client application which can interect with the server.
 
-## Installation
+<br>
+This application is also dockerized. 
+if you use docker
+
 ```
 $ docker-compose up 
 ```
-### Access
-`http://localhost`
+then you can access to `http://localhost`
 
-### Basic auth
+#### Basic auth
 Id and password are written in docker/web/nginx.Dockerfile.
 
-## Usage
-### API
+#### API
 - GET /programing_languages
+
+
+## How to submit
+- Send your GitHub repository URL to a person in charge.
