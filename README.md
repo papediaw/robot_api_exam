@@ -36,9 +36,6 @@ python,Python
 java,Java
 ```
 
-### Note
-We check how you write ruby like object-oriented program.
-
 ## Installation
 ```
 $ docker-compose up 
