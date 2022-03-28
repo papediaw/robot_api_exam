@@ -29,7 +29,7 @@ $ ruby robot_api_client.rb json someId somePassword
 
 - csv
 ```
-$ ruby robot_api_client.rb json someId somePassword
+$ ruby robot_api_client.rb csv someId somePassword
 code,displayName
 ruby,Ruby
 python,Python
