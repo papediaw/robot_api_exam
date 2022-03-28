@@ -60,5 +60,4 @@ VOLUME $RAILS_ROOT/tmp
 
 RUN chown -R rails:rails .
 
-RUN target=${RAILS_ROOT} bundle exec rails assets:precompile
 CMD ["bundle", "exec", "puma", "-C", "config/puma.rb"]
