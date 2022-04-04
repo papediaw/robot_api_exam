@@ -55,4 +55,4 @@ Id and password are written in docker/web/nginx.Dockerfile.
 
 
 ## How to submit
-- Send your GitHub repository URL to a person in charge.
+
